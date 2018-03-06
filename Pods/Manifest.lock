@@ -1,0 +1,25 @@
+PODS:
+  - Alamofire (4.7.0)
+  - Typhoon (4.0.3):
+    - Typhoon/DeallocNotifier (= 4.0.3)
+    - Typhoon/IntrospectionUtils (= 4.0.3)
+    - Typhoon/no-arc (= 4.0.3)
+  - Typhoon/DeallocNotifier (4.0.3)
+  - Typhoon/IntrospectionUtils (4.0.3)
+  - Typhoon/no-arc (4.0.3):
+    - Typhoon/IntrospectionUtils
+  - ViperMcFlurry (1.5.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7.0)
+  - Typhoon
+  - ViperMcFlurry (~> 1.5.2)
+
+SPEC CHECKSUMS:
+  Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
+  Typhoon: 85d1a7ada9a7def46a374be1301540572cc53636
+  ViperMcFlurry: 701bc3ad8d188b1f1e157ec0ddf4e77184de88b5
+
+PODFILE CHECKSUM: a8c184c768e11dcb3ad6327ecf503e17fb70de4e
+
+COCOAPODS: 1.1.1

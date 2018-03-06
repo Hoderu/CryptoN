@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58F71208CF2EAF0BDB0AD18E /* Pods_CNCryptoN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C1D0545277488D2D9F350B /* Pods_CNCryptoN.framework */; };
+		6131599E204DE902008D53F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6131599D204DE902008D53F3 /* AppDelegate.swift */; };
+		613159A0204DE902008D53F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6131599F204DE902008D53F3 /* ViewController.swift */; };
+		613159A3204DE902008D53F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 613159A1204DE902008D53F3 /* Main.storyboard */; };
+		613159A5204DE902008D53F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 613159A4204DE902008D53F3 /* Assets.xcassets */; };
+		613159A8204DE902008D53F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 613159A6204DE902008D53F3 /* LaunchScreen.storyboard */; };
+		613159B3204DE902008D53F3 /* CNCryptoNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613159B2204DE902008D53F3 /* CNCryptoNTests.swift */; };
+		613159BE204DE902008D53F3 /* CNCryptoNUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613159BD204DE902008D53F3 /* CNCryptoNUITests.swift */; };
+		613159FE204E926E008D53F3 /* CNCoinListModuleViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613159F4204E926E008D53F3 /* CNCoinListModuleViewInput.swift */; };
+		613159FF204E926E008D53F3 /* CNCoinListModuleInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613159F5204E926E008D53F3 /* CNCoinListModuleInteractorOutput.swift */; };
+		61315A00204E926E008D53F3 /* CNCoinListModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613159F6204E926E008D53F3 /* CNCoinListModulePresenter.swift */; };
+		61315A01204E926E008D53F3 /* CNCoinListModuleModuleAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613159F7204E926E008D53F3 /* CNCoinListModuleModuleAssembly.swift */; };
+		61315A02204E926E008D53F3 /* CNCoinListModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613159F8204E926E008D53F3 /* CNCoinListModuleRouter.swift */; };
+		61315A03204E926E008D53F3 /* CNCoinListModuleInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613159F9204E926E008D53F3 /* CNCoinListModuleInteractorInput.swift */; };
+		61315A04204E926E008D53F3 /* CNCoinListModuleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613159FA204E926E008D53F3 /* CNCoinListModuleInteractor.swift */; };
+		61315A05204E926E008D53F3 /* CNCoinListModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613159FB204E926E008D53F3 /* CNCoinListModuleView.swift */; };
+		61315A06204E926E008D53F3 /* CNCoinListModuleRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613159FC204E926E008D53F3 /* CNCoinListModuleRouterInput.swift */; };
+		61315A07204E926E008D53F3 /* CNCoinListModuleViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613159FD204E926E008D53F3 /* CNCoinListModuleViewOutput.swift */; };
+		61315A0D204E955E008D53F3 /* CNCoinListModulePresenterOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61315A0C204E955E008D53F3 /* CNCoinListModulePresenterOutput.swift */; };
+		61315A0F204E957B008D53F3 /* CNCoinListModulePresenterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61315A0E204E957B008D53F3 /* CNCoinListModulePresenterInput.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		613159AF204DE902008D53F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61315992204DE902008D53F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61315999204DE902008D53F3;
+			remoteInfo = CNCryptoN;
+		};
+		613159BA204DE902008D53F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61315992204DE902008D53F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61315999204DE902008D53F3;
+			remoteInfo = CNCryptoN;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		067631FA0AB78BA2F602CAB6 /* Pods-CNCryptoN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNCryptoN.release.xcconfig"; path = "Pods/Target Support Files/Pods-CNCryptoN/Pods-CNCryptoN.release.xcconfig"; sourceTree = "<group>"; };
+		6131599A204DE902008D53F3 /* CNCryptoN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CNCryptoN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6131599D204DE902008D53F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6131599F204DE902008D53F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		613159A2204DE902008D53F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		613159A4204DE902008D53F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		613159A7204DE902008D53F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		613159A9204DE902008D53F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		613159AE204DE902008D53F3 /* CNCryptoNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CNCryptoNTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		613159B2204DE902008D53F3 /* CNCryptoNTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNCryptoNTests.swift; sourceTree = "<group>"; };
+		613159B4204DE902008D53F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		613159B9204DE902008D53F3 /* CNCryptoNUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CNCryptoNUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		613159BD204DE902008D53F3 /* CNCryptoNUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNCryptoNUITests.swift; sourceTree = "<group>"; };
+		613159BF204DE902008D53F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		613159F4204E926E008D53F3 /* CNCoinListModuleViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNCoinListModuleViewInput.swift; sourceTree = "<group>"; };
+		613159F5204E926E008D53F3 /* CNCoinListModuleInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNCoinListModuleInteractorOutput.swift; sourceTree = "<group>"; };
+		613159F6204E926E008D53F3 /* CNCoinListModulePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNCoinListModulePresenter.swift; sourceTree = "<group>"; };
+		613159F7204E926E008D53F3 /* CNCoinListModuleModuleAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNCoinListModuleModuleAssembly.swift; sourceTree = "<group>"; };
+		613159F8204E926E008D53F3 /* CNCoinListModuleRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNCoinListModuleRouter.swift; sourceTree = "<group>"; };
+		613159F9204E926E008D53F3 /* CNCoinListModuleInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNCoinListModuleInteractorInput.swift; sourceTree = "<group>"; };
+		613159FA204E926E008D53F3 /* CNCoinListModuleInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNCoinListModuleInteractor.swift; sourceTree = "<group>"; };
+		613159FB204E926E008D53F3 /* CNCoinListModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNCoinListModuleView.swift; sourceTree = "<group>"; };
+		613159FC204E926E008D53F3 /* CNCoinListModuleRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNCoinListModuleRouterInput.swift; sourceTree = "<group>"; };
+		613159FD204E926E008D53F3 /* CNCoinListModuleViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNCoinListModuleViewOutput.swift; sourceTree = "<group>"; };
+		61315A0C204E955E008D53F3 /* CNCoinListModulePresenterOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNCoinListModulePresenterOutput.swift; sourceTree = "<group>"; };
+		61315A0E204E957B008D53F3 /* CNCoinListModulePresenterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNCoinListModulePresenterInput.swift; sourceTree = "<group>"; };
+		861CDC0217DC494B947632DC /* Pods-CNCryptoN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNCryptoN.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CNCryptoN/Pods-CNCryptoN.debug.xcconfig"; sourceTree = "<group>"; };
+		D0C1D0545277488D2D9F350B /* Pods_CNCryptoN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CNCryptoN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61315997204DE902008D53F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F71208CF2EAF0BDB0AD18E /* Pods_CNCryptoN.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		613159AB204DE902008D53F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		613159B6204DE902008D53F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4503AB861CD94C7A99907BED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0C1D0545277488D2D9F350B /* Pods_CNCryptoN.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61315991204DE902008D53F3 = {
+			isa = PBXGroup;
+			children = (
+				6131599C204DE902008D53F3 /* CNCryptoN */,
+				613159B1204DE902008D53F3 /* CNCryptoNTests */,
+				613159BC204DE902008D53F3 /* CNCryptoNUITests */,
+				6131599B204DE902008D53F3 /* Products */,
+				C158E0790C94D6E5297DEE40 /* Pods */,
+				4503AB861CD94C7A99907BED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6131599B204DE902008D53F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6131599A204DE902008D53F3 /* CNCryptoN.app */,
+				613159AE204DE902008D53F3 /* CNCryptoNTests.xctest */,
+				613159B9204DE902008D53F3 /* CNCryptoNUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6131599C204DE902008D53F3 /* CNCryptoN */ = {
+			isa = PBXGroup;
+			children = (
+				613159DF204E9204008D53F3 /* CoinListModule */,
+				6131599F204DE902008D53F3 /* ViewController.swift */,
+				6131599D204DE902008D53F3 /* AppDelegate.swift */,
+				613159A1204DE902008D53F3 /* Main.storyboard */,
+				613159A4204DE902008D53F3 /* Assets.xcassets */,
+				613159A6204DE902008D53F3 /* LaunchScreen.storyboard */,
+				613159A9204DE902008D53F3 /* Info.plist */,
+			);
+			path = CNCryptoN;
+			sourceTree = "<group>";
+		};
+		613159B1204DE902008D53F3 /* CNCryptoNTests */ = {
+			isa = PBXGroup;
+			children = (
+				613159B2204DE902008D53F3 /* CNCryptoNTests.swift */,
+				613159B4204DE902008D53F3 /* Info.plist */,
+			);
+			path = CNCryptoNTests;
+			sourceTree = "<group>";
+		};
+		613159BC204DE902008D53F3 /* CNCryptoNUITests */ = {
+			isa = PBXGroup;
+			children = (
+				613159BD204DE902008D53F3 /* CNCryptoNUITests.swift */,
+				613159BF204DE902008D53F3 /* Info.plist */,
+			);
+			path = CNCryptoNUITests;
+			sourceTree = "<group>";
+		};
+		613159DF204E9204008D53F3 /* CoinListModule */ = {
+			isa = PBXGroup;
+			children = (
+				613159F7204E926E008D53F3 /* CNCoinListModuleModuleAssembly.swift */,
+				61315A0A204E92C3008D53F3 /* View */,
+				61315A0B204E92DA008D53F3 /* Presenter */,
+				61315A08204E92A2008D53F3 /* Interactor */,
+				61315A09204E92B1008D53F3 /* Router */,
+			);
+			path = CoinListModule;
+			sourceTree = "<group>";
+		};
+		61315A08204E92A2008D53F3 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				613159F5204E926E008D53F3 /* CNCoinListModuleInteractorOutput.swift */,
+				613159F9204E926E008D53F3 /* CNCoinListModuleInteractorInput.swift */,
+				613159FA204E926E008D53F3 /* CNCoinListModuleInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		61315A09204E92B1008D53F3 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				613159F8204E926E008D53F3 /* CNCoinListModuleRouter.swift */,
+				613159FC204E926E008D53F3 /* CNCoinListModuleRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		61315A0A204E92C3008D53F3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				613159F4204E926E008D53F3 /* CNCoinListModuleViewInput.swift */,
+				613159FD204E926E008D53F3 /* CNCoinListModuleViewOutput.swift */,
+				613159FB204E926E008D53F3 /* CNCoinListModuleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		61315A0B204E92DA008D53F3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				613159F6204E926E008D53F3 /* CNCoinListModulePresenter.swift */,
+				61315A0E204E957B008D53F3 /* CNCoinListModulePresenterInput.swift */,
+				61315A0C204E955E008D53F3 /* CNCoinListModulePresenterOutput.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C158E0790C94D6E5297DEE40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				861CDC0217DC494B947632DC /* Pods-CNCryptoN.debug.xcconfig */,
+				067631FA0AB78BA2F602CAB6 /* Pods-CNCryptoN.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61315999204DE902008D53F3 /* CNCryptoN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 613159C2204DE902008D53F3 /* Build configuration list for PBXNativeTarget "CNCryptoN" */;
+			buildPhases = (
+				06FB884521DCE9E7A7AE04A1 /* [CP] Check Pods Manifest.lock */,
+				61315996204DE902008D53F3 /* Sources */,
+				61315997204DE902008D53F3 /* Frameworks */,
+				61315998204DE902008D53F3 /* Resources */,
+				40C091710CEDC8AD0E5ECDA3 /* [CP] Embed Pods Frameworks */,
+				E9E7E15C1E202F39DF78A754 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CNCryptoN;
+			productName = CNCryptoN;
+			productReference = 6131599A204DE902008D53F3 /* CNCryptoN.app */;
+			productType = "com.apple.product-type.application";
+		};
+		613159AD204DE902008D53F3 /* CNCryptoNTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 613159C5204DE902008D53F3 /* Build configuration list for PBXNativeTarget "CNCryptoNTests" */;
+			buildPhases = (
+				613159AA204DE902008D53F3 /* Sources */,
+				613159AB204DE902008D53F3 /* Frameworks */,
+				613159AC204DE902008D53F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				613159B0204DE902008D53F3 /* PBXTargetDependency */,
+			);
+			name = CNCryptoNTests;
+			productName = CNCryptoNTests;
+			productReference = 613159AE204DE902008D53F3 /* CNCryptoNTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		613159B8204DE902008D53F3 /* CNCryptoNUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 613159C8204DE902008D53F3 /* Build configuration list for PBXNativeTarget "CNCryptoNUITests" */;
+			buildPhases = (
+				613159B5204DE902008D53F3 /* Sources */,
+				613159B6204DE902008D53F3 /* Frameworks */,
+				613159B7204DE902008D53F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				613159BB204DE902008D53F3 /* PBXTargetDependency */,
+			);
+			name = CNCryptoNUITests;
+			productName = CNCryptoNUITests;
+			productReference = 613159B9204DE902008D53F3 /* CNCryptoNUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61315992204DE902008D53F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = MIPT;
+				TargetAttributes = {
+					61315999204DE902008D53F3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					613159AD204DE902008D53F3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 61315999204DE902008D53F3;
+					};
+					613159B8204DE902008D53F3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 61315999204DE902008D53F3;
+					};
+				};
+			};
+			buildConfigurationList = 61315995204DE902008D53F3 /* Build configuration list for PBXProject "CNCryptoN" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61315991204DE902008D53F3;
+			productRefGroup = 6131599B204DE902008D53F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61315999204DE902008D53F3 /* CNCryptoN */,
+				613159AD204DE902008D53F3 /* CNCryptoNTests */,
+				613159B8204DE902008D53F3 /* CNCryptoNUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61315998204DE902008D53F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613159A8204DE902008D53F3 /* LaunchScreen.storyboard in Resources */,
+				613159A5204DE902008D53F3 /* Assets.xcassets in Resources */,
+				613159A3204DE902008D53F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		613159AC204DE902008D53F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		613159B7204DE902008D53F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06FB884521DCE9E7A7AE04A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		40C091710CEDC8AD0E5ECDA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CNCryptoN/Pods-CNCryptoN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9E7E15C1E202F39DF78A754 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CNCryptoN/Pods-CNCryptoN-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61315996204DE902008D53F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61315A06204E926E008D53F3 /* CNCoinListModuleRouterInput.swift in Sources */,
+				61315A05204E926E008D53F3 /* CNCoinListModuleView.swift in Sources */,
+				613159A0204DE902008D53F3 /* ViewController.swift in Sources */,
+				613159FF204E926E008D53F3 /* CNCoinListModuleInteractorOutput.swift in Sources */,
+				61315A0D204E955E008D53F3 /* CNCoinListModulePresenterOutput.swift in Sources */,
+				61315A0F204E957B008D53F3 /* CNCoinListModulePresenterInput.swift in Sources */,
+				6131599E204DE902008D53F3 /* AppDelegate.swift in Sources */,
+				61315A04204E926E008D53F3 /* CNCoinListModuleInteractor.swift in Sources */,
+				61315A01204E926E008D53F3 /* CNCoinListModuleModuleAssembly.swift in Sources */,
+				61315A00204E926E008D53F3 /* CNCoinListModulePresenter.swift in Sources */,
+				613159FE204E926E008D53F3 /* CNCoinListModuleViewInput.swift in Sources */,
+				61315A02204E926E008D53F3 /* CNCoinListModuleRouter.swift in Sources */,
+				61315A07204E926E008D53F3 /* CNCoinListModuleViewOutput.swift in Sources */,
+				61315A03204E926E008D53F3 /* CNCoinListModuleInteractorInput.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		613159AA204DE902008D53F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613159B3204DE902008D53F3 /* CNCryptoNTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		613159B5204DE902008D53F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613159BE204DE902008D53F3 /* CNCryptoNUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		613159B0204DE902008D53F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61315999204DE902008D53F3 /* CNCryptoN */;
+			targetProxy = 613159AF204DE902008D53F3 /* PBXContainerItemProxy */;
+		};
+		613159BB204DE902008D53F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61315999204DE902008D53F3 /* CNCryptoN */;
+			targetProxy = 613159BA204DE902008D53F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		613159A1204DE902008D53F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				613159A2204DE902008D53F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		613159A6204DE902008D53F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				613159A7204DE902008D53F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		613159C0204DE902008D53F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		613159C1204DE902008D53F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		613159C3204DE902008D53F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 861CDC0217DC494B947632DC /* Pods-CNCryptoN.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D562KL9N8D;
+				INFOPLIST_FILE = CNCryptoN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MIPT.CNCryptoN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		613159C4204DE902008D53F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 067631FA0AB78BA2F602CAB6 /* Pods-CNCryptoN.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D562KL9N8D;
+				INFOPLIST_FILE = CNCryptoN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MIPT.CNCryptoN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		613159C6204DE902008D53F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D562KL9N8D;
+				INFOPLIST_FILE = CNCryptoNTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MIPT.CNCryptoNTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CNCryptoN.app/CNCryptoN";
+			};
+			name = Debug;
+		};
+		613159C7204DE902008D53F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D562KL9N8D;
+				INFOPLIST_FILE = CNCryptoNTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MIPT.CNCryptoNTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CNCryptoN.app/CNCryptoN";
+			};
+			name = Release;
+		};
+		613159C9204DE902008D53F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D562KL9N8D;
+				INFOPLIST_FILE = CNCryptoNUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MIPT.CNCryptoNUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CNCryptoN;
+			};
+			name = Debug;
+		};
+		613159CA204DE902008D53F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D562KL9N8D;
+				INFOPLIST_FILE = CNCryptoNUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MIPT.CNCryptoNUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CNCryptoN;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61315995204DE902008D53F3 /* Build configuration list for PBXProject "CNCryptoN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				613159C0204DE902008D53F3 /* Debug */,
+				613159C1204DE902008D53F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		613159C2204DE902008D53F3 /* Build configuration list for PBXNativeTarget "CNCryptoN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				613159C3204DE902008D53F3 /* Debug */,
+				613159C4204DE902008D53F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		613159C5204DE902008D53F3 /* Build configuration list for PBXNativeTarget "CNCryptoNTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				613159C6204DE902008D53F3 /* Debug */,
+				613159C7204DE902008D53F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		613159C8204DE902008D53F3 /* Build configuration list for PBXNativeTarget "CNCryptoNUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				613159C9204DE902008D53F3 /* Debug */,
+				613159CA204DE902008D53F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61315992204DE902008D53F3 /* Project object */;
+}
